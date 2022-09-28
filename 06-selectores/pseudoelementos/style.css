@@ -1,0 +1,40 @@
+.container {
+    width: 300px;
+    height: 100px;
+    background-color: bisque;
+}
+
+span.frase {
+    font-style: italic;
+}
+
+span.frase::before {
+    content: "«";
+}
+
+span.frase::after {
+    content: "»";
+}
+
+.libro {
+    background-color: peachpuff;
+    padding: 15px;
+    font-family: arial;
+}
+
+.libro p::first-letter {
+    font-size: xx-large;
+}
+
+.libro p::first-line{
+    color: crimson;
+}
+
+.libro p::sselection {
+    background-color: chocolate;
+    color:lime;
+}
+
+.listado ul li::marker {
+    color:red;
+}

@@ -1,0 +1,19 @@
+/*pseudoclases
+    referencia a estados de elementos
+*/
+
+
+
+/*aunque redundante, el ejemplo señala una ruta para los selectores*/
+body section.main .container p  {
+    /*
+        [section.main]       junto    -> aplica a la clase del section
+        [section .container] separado -> aplica a las clases dentro del section
+    */
+    color: green;
+
+}
+
+.container #boton_en_contenedor {
+    background-color: papayawhip;
+}
