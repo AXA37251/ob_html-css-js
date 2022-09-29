@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
-html 
-{
+html {
     font-family: 'Ubuntu', sans-serif;
+    }
+
+body {
+    background-color: #161717;;
 }
 
 .container 
 {
+    color: white;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -111,7 +115,7 @@ form {
 }
 
 label {
-
+    color: white;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -121,7 +125,7 @@ label span {
 }
 .section-inputs label input {
     width: 80%;
-    background-color: #f3f3f4;
+    background-color: #212121;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -130,7 +134,8 @@ label span {
 }
 label input {
     width: 90%;
-    background-color: #f3f3f4;
+    background-color: #212121;
+    color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -138,12 +143,17 @@ label input {
     font-size: 14pt;
     transition: background-color 0.3s, border 0.2s, box-shadow0.5s;
 }
+label input::placeholder{
+    color: gray;
+}
     label input:hover{
+        color: black;
         background-color: white;
-        border: solid 1px #f3f3f4;
+        border: solid 1px #454045;
         box-shadow: 0 0 10px #FDEEF4;
     }
     label input:focus{
+        color: black;
         background-color: white;
         border: solid 1px #f3f3f4;
         box-shadow: 0 0 10px #FDEEF4;
@@ -154,12 +164,23 @@ label input {
     } 
 
 .checkbox-label {
+    background-color: #161717;
     display: flex;
     flex-direction: row;
 }
 .checkbox-label input[type="checkbox"]{
     width: 20px;
 }
+
+.checkbox-label:hover{
+    border: none;
+
+}
+
+.checkbox-label:focus{
+    border:none;
+}
+
 .checkbox-label span {
     font-weight: 400;
 }
