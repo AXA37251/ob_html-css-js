@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.btn-modern {
+    width: 100px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: darksalmon;
+    margin: 65px;
+    cursor: pointer;
+}
+
+.btn-modern:hover {
+    animation: efecto 0.4s forwards;
+}
+
+@keyframes efecto {
+    0% {
+
+    }
+    100% {
+        color: red;
+        background-color: coral;
+        transform: translateY(-5px);
+        box-shadow: 0 0 15px #000000;
+        
+    }
+}
+
+
+
+
+    
