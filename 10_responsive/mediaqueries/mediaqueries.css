@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+    color: green;
+    font-size: 2rem;
+}
+/*
+@media all {
+
+} */
+
+@media screen and (max-width: 576px) {
+    p {
+        color: black;
+    }
+}
+
+@media print and (max-width: 576px) {
+    h1 {
+        color: blue;
+    }
+} 
+
+
+@media (min-width: 576px){
+    h1 {
+        background-color: coral;
+    }
+    
+}
