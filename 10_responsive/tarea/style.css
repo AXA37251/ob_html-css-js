@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    border: 1px solid blue;
+}
+
+aside {
+    width: 35vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+main {
+    width: 65vw;
+    height: 100vh;
+    background-color: red;
+    opacity: 0.65;
+}
+
+@media (max-width: 640px) {
+    aside {
+        width: 95vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    main {
+        width: 98vw;
+        height: 75vh;
+    }
+
+
+}
