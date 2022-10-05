@@ -1,0 +1,21 @@
+.escenario {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 2rem;
+}
+
+.escenario_1 {
+    font-size: 32px;
+}
+
+.escenario_2 {
+    font-size: 16px;
+}
+
