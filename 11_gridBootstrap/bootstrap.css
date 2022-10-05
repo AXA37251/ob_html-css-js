@@ -14,14 +14,10 @@
     background-color: yellow;
 }
 
-.col-gl {
+.col-lg {
     background-color: green;
 }
 
 .col-xl {
     background-color: blue;
-}
-
-.col-xxl {
-    background-color: pink;
 }
