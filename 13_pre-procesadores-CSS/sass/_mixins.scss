@@ -1,0 +1,9 @@
+$title-color: #3F3F3F;
+$sub-title-color: #6F6F6F;
+
+@mixin formato-texto($bg-color: #f1f1f1) {
+    width: 50rem;
+    text-transform: uppercase;
+    color: $sub-title-color;
+    background-color: $bg-color
+}
