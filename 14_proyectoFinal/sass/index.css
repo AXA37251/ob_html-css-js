@@ -1,0 +1,44 @@
+.btn-signUp, .btn-signIn, .btn-signIn-s, .btn-signUp-s {
+  padding: 0.25rem 1.25rem;
+  border-radius: 0.25rem;
+  background-color: #0075FF;
+  border: 1px solid #0075FF;
+  color: white;
+}
+.btn-signUp:hover, .btn-signIn:hover, .btn-signIn-s:hover, .btn-signUp-s:hover {
+  background-color: white;
+  color: #0075FF;
+}
+.btn-signUp-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-signIn, .btn-signIn-s {
+  background-color: transparent;
+  color: #000000;
+  border: none;
+}
+.btn-signIn:hover, .btn-signIn-s:hover {
+  color: #0075FF;
+}
+.btn-signIn-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu li {
+  font-size: 0.65rem;
+  list-style: none;
+  display: inline;
+}
+
+.icon-sm {
+  padding: 0.5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 7.5px #777777;
+}
+.icon-sm i {
+  padding: 0.1rem 0.25rem;
+  color: #0075FF;
+}/*# sourceMappingURL=index.css.map */

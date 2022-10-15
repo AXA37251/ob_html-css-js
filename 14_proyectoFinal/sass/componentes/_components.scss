@@ -1,0 +1,66 @@
+@mixin btn-base {
+    padding: 0.25rem 1.25rem;
+    border-radius: 0.25rem;
+}
+
+@mixin btn-s-modify {
+    font-size: 0.75rem;
+    padding: 0.1rem 1rem;
+}
+
+$color-principal: #0075FF;
+$color-subtitle: #FFFFFF;
+
+.btn-signUp {
+    @include btn-base;
+    background-color: $color-principal;
+    border: 1px solid $color-principal;
+    color: white;
+
+    &:hover {
+        background-color: white;
+        color: $color-principal;
+    }
+
+    &-s {
+        @extend .btn-signUp;
+        @include btn-s-modify();
+    }
+}
+
+.btn-signIn {
+    @extend .btn-signUp;
+    background-color: transparent;
+    color: #000000;
+    border: none;
+
+    &:hover {
+        color: $color-principal;
+    }
+
+    &-s {
+        @extend .btn-signIn;
+        @include btn-s-modify();
+    }
+}
+
+.main-menu {
+    li {
+        font-size: 0.65rem;
+        list-style: none;
+        display: inline;
+
+    }
+}
+
+.icon-sm {
+
+    padding: 0.5rem;
+    border-radius: 50%;
+    box-shadow: 0 0 7.5px #777777;
+    i {
+        padding: 0.1rem 0.25rem;
+        color: $color-principal;
+    }
+}
+
