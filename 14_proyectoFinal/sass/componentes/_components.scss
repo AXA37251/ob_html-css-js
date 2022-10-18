@@ -103,13 +103,14 @@ $color-subtitle: #7a7a7a;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    .icon {
-        margin-top: -2rem;
+    i {
+        margin-top: 2rem;
         color: $color-principal;
         font-size: 4rem;
         padding: 0;
     }
     .title {
+        margin-top: -1rem;
         font-size: 1.5rem;
         font-weight: 600;
     }
